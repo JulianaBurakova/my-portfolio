@@ -1,0 +1,100 @@
+:root {
+  --primary-color: #c663ff;
+  --secondary-color: #f0e5f0;
+  --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin-bottom: 60px;
+  margin-top: 100px;
+}
+h2 {
+  font-size: 48px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 96px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.6;
+}
+.links {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+}
+.links a {
+  margin: 20px;
+}
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.contact-link:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.about-link {
+  color: var(--primary-color);
+  border: 0.5px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.about-link:hover {
+  text-decoration: none;
+  color: #9f38db;
+}
+.homepage {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  background: var(--secondary-color);
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+.about-paragraphs {
+  margin: 30px 0;
+}
+.about-paragraphs p {
+  margin: 40px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+#btn-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 0px;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: #c663ff !important;
+  color: #ffffff !important;
+}
