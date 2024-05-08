@@ -24,10 +24,16 @@ h1 {
 }
 @media (max-width: 700px) {
   h1 {
-    font-size: 60px;
+    font-size: 54px;
   }
   h2 {
-    font-size: 38px;
+    font-size: 36px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #app {
+    font-size: 24px;
   }
 }
 h3 {
