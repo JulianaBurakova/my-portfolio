@@ -3,6 +3,9 @@
   --secondary-color: #f0e5f0;
   --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin-bottom: 60px;
   margin-top: 100px;
@@ -19,6 +22,14 @@ h3 {
 h1 {
   font-size: 96px;
 }
+@media (max-width: 700px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+}
 h3 {
   font-size: 24px;
   opacity: 0.6;
@@ -34,7 +45,7 @@ h3 {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: #ffffff;
   padding: 20px 15px;
   text-decoration: none;
   border-radius: 10px;
@@ -78,6 +89,10 @@ h3 {
   justify-content: center;
   color: var(--primary-color);
   font-size: 28px;
+  text-decoration: none;
+}
+.email:hover {
+  color: #9f38db;
   text-decoration: none;
 }
 .fixed-top {
