@@ -187,7 +187,7 @@ h3 {
   margin: 20px;
 }
 #contact {
-  border-radius: 20px;
+  border-radius: 8px;
   background-color: #e9d492;
   color: #595757;
   box-shadow: var(--box-shadow);
@@ -197,7 +197,7 @@ h3 {
   background-color: #ceb86e;
 }
 #projects {
-  border-radius: 20px;
+  border-radius: 8px;
   background-color: #d9d9d9;
   color: #595757;
   box-shadow: var(--box-shadow);
@@ -231,7 +231,7 @@ footer {
   padding-top: 20px;
 }
 #lunch {
-  border-radius: 20px;
+  border-radius: 8px;
   background-color: #e9d492;
   color: #595757;
   box-shadow: var(--box-shadow);
@@ -343,8 +343,8 @@ form .form-row .textarea {
 }
 #submit {
   background-color: #e9d492;
-  border-radius: 5px;
-  padding: 10px 15px;
+  border-radius: 8px;
+  padding: 8px 12px;
   border-color: #bab9b9;
   color: #747272;
   box-shadow: var(--box-shadow);
