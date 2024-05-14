@@ -327,7 +327,7 @@ form .form-row .textarea {
   content: "";
   height: 2px;
   width: 100%;
-  background: #cbb2cb;
+  background: #f5cc50;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
